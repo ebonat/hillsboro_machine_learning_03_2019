@@ -22,6 +22,14 @@ import time
 
 # creating the objective function
 def objective_function(args):
+    """[summary]
+    
+    Arguments:
+        args {[type]} -- [description]
+    
+    Returns:
+        [type] -- [description]
+    """
     x, y = args
     f = x**2 - y**2
     return f  
